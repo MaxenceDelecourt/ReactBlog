@@ -6,8 +6,8 @@ This is my first project with react js
 I wanted to learn this framework and after learning the course on openclassroom, i decided to
 create my blog with create-react-app, antdesign and contenfulManagement.
 
-You can download this application if you want a personnal blog.
-in this application i create a simple crud for an article.
+You can download this application if you want have a personnal blog.
+in this application i create a simple crud for article.
 
 on this application you have 
 - a Home ( for your presentation, contact etc ... ).
@@ -36,8 +36,16 @@ Author with fields :
 - Website (short text) 
 - Avatar (Media)
 
+After this changed your configuration client in the react app :
 
+check the file API.js in folder API.
+and changed the access token and space configuration.
 
+for this information you can go on your personal space in contentful account
+in the settings go to the API KEYS and content management token and click on generate personal token.
+(the space config is just in the tab content delivery).
+
+After this yarn start for lunch your project on your localhost
 
 ## Available Scripts
 
