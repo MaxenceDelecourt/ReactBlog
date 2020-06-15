@@ -45,7 +45,7 @@ for this information you can go on your personal space in contentful account
 in the settings go to the API KEYS and content management token and click on generate personal token.
 (the space config is just in the tab content delivery).
 
-After this yarn start for lunch your project on your localhost
+After this you can make: yarn start for lunch your project on your localhost
 
 ## Available Scripts
 
