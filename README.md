@@ -19,6 +19,22 @@ this application is under development.
 
 for contentfull you need to create 2 content : 
 
+post with fields :
+
+- title (short text)
+- description (short text)
+- slug (short text) 
+- content (long text)
+- author (reference)
+- publish Date (date & time)
+- Featured Image (Media)
+
+Author with fields :
+
+- fullName (short text)
+- Bio (long text)
+- Website (short text) 
+- Avatar (Media)
 
 
 
