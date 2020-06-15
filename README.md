@@ -1,5 +1,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Hello,
+
+This is my first project with react js
+I wanted to learn this framework and after learning the course on openclassroom, i decided to
+create my blog with create-react-app, antdesign and contenfulManagement.
+
+You can download this application if you want a personnal blog.
+in this application i create a simple crud for an article.
+
+on this application you have 
+- a Home ( for your presentation, contact etc ... ).
+- a list of articles with a pagination and search bar.
+- login access for an admin dashboard
+- dashboard for change your account ( password, avatar etc .. ) and edit your article.
+
+this application is under development.
+
+for contentfull you need to create 2 content : 
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
