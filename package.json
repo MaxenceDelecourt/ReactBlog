@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.2.5",
     "contentful-management": "^5.26.6",
+    "rc-queue-anim": "^1.8.5",
     "rc-texty": "^0.2.0",
     "rc-tween-one": "^2.7.0",
     "react": "^16.13.1",
