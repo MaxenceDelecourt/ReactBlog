@@ -95,14 +95,14 @@ class ModifyPost extends Component {
                                         </Select>
                                     ))}
                                     </Form.Item> */}
-                                    <Col className="gutter-row" span={4}>
-                                        <span>Couverture d'article</span>
-                                        <br />
-                                        <Upload>
-                                            <Button size='large' type="primary">
-                                                <UploadOutlined /> Télécharger
+                                    <Col className="gutter-row" span={12}>
+                                    <span>Couverture d'article</span>
+                                    <br />
+                                    <Upload>
+                                        <Button size='large' type="primary">
+                                            <UploadOutlined /> Télécharger
                                         </Button>
-                                        </Upload>
+                                    </Upload>
                                     </Col>
                                 </Row>
                             </Card>

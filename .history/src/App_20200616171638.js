@@ -31,7 +31,7 @@ function App() {
             <Route path='/AddPost' exact component={ModifyPost} />
           </Content>
         </Router>
-        <Footer style={{position: 'absolute', textAlign: 'center', bottom: 0, width: '100%' }}>Created by Maxence Delecourt ©2020 </Footer>
+        <Footer style={{position: 'absolute' textAlign: 'center', bottom: 0, width: '100%' }}>Created by Maxence Delecourt ©2020 </Footer>
       </Layout>
     </div>
   );

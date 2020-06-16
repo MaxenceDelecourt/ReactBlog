@@ -63,7 +63,7 @@ class ModifyPost extends Component {
                         <Col className="gutter-row" span={20}>
                             <Card style={{ width: '100%', borderRadius: '30px' }}>
                                 <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-                                    <Col className="gutter-row" span={6}>
+                                    <Col className="gutter-row" span={8}>
                                         <span>Titre de l'article</span>
                                         <br />
                                         <Form.Item name="title" value={title} onChange={(value) => this.setState({ title: value })} rules={[{ required: true, message: 'Le titre n\'a pas été entrer', },]}>
@@ -95,15 +95,13 @@ class ModifyPost extends Component {
                                         </Select>
                                     ))}
                                     </Form.Item> */}
-                                    <Col className="gutter-row" span={4}>
-                                        <span>Couverture d'article</span>
-                                        <br />
-                                        <Upload>
-                                            <Button size='large' type="primary">
-                                                <UploadOutlined /> Télécharger
+                                    <span>Couverture d'article</span>
+                                    <br />
+                                    <Upload>
+                                        <Button size='large' type="primary">
+                                            <UploadOutlined /> Télécharger
                                         </Button>
-                                        </Upload>
-                                    </Col>
+                                    </Upload>
                                 </Row>
                             </Card>
                         </Col>

@@ -63,7 +63,7 @@ class ModifyPost extends Component {
                         <Col className="gutter-row" span={20}>
                             <Card style={{ width: '100%', borderRadius: '30px' }}>
                                 <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-                                    <Col className="gutter-row" span={6}>
+                                    <Col className="gutter-row" span={20}>
                                         <span>Titre de l'article</span>
                                         <br />
                                         <Form.Item name="title" value={title} onChange={(value) => this.setState({ title: value })} rules={[{ required: true, message: 'Le titre n\'a pas été entrer', },]}>
@@ -81,29 +81,25 @@ class ModifyPost extends Component {
                                         </Form.Item>
                                         <span>Date de publication : </span><DatePicker name="date" onChange={this.datepicker} />
                                     </Col>
-                                    <Col className="gutter-row" span={12}>
-                                        <span>Contenue de l'article</span>
-                                        <br />
-                                        <Form.Item name='content' value={content} onChange={(value) => this.setState({ content: value })}>
-                                            <Input.TextArea size='large' style={{ height: '250px' }} value={content} />
-                                        </Form.Item>
-                                    </Col>
+                                    <span>Contenue de l'article</span>
+                                    <br />
+                                    <Form.Item name='content' value={content} onChange={(value) => this.setState({ content: value })}>
+                                        <Input.TextArea size='large' style={{ height: '250px' }} value={content} />
+                                    </Form.Item>
                                     {/* <Form.Item name="author" label="Auteur" rules={[{ required: true, },]}>
                                     {author.map(author => (
                                         <Select name="author" value='' placeholder="Selectioner un auteur d'article" onChange={(value) => this.setState({ author: value })} allowClear>
                                             <Option value={author.id}>{author.name}</Option>
                                         </Select>
                                     ))}
-                                    </Form.Item> */}
-                                    <Col className="gutter-row" span={4}>
-                                        <span>Couverture d'article</span>
-                                        <br />
-                                        <Upload>
-                                            <Button size='large' type="primary">
-                                                <UploadOutlined /> Télécharger
+                                </Form.Item> */}
+                                    <span>Couverture d'article</span>
+                                    <br />
+                                    <Upload>
+                                        <Button size='large' type="primary">
+                                            <UploadOutlined /> Télécharger
                                         </Button>
-                                        </Upload>
-                                    </Col>
+                                    </Upload>
                                 </Row>
                             </Card>
                         </Col>

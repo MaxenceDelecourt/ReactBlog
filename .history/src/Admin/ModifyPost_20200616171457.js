@@ -95,7 +95,7 @@ class ModifyPost extends Component {
                                         </Select>
                                     ))}
                                     </Form.Item> */}
-                                    <Col className="gutter-row" span={4}>
+                                    <Col className="gutter-row" span={12}>
                                         <span>Couverture d'article</span>
                                         <br />
                                         <Upload>
